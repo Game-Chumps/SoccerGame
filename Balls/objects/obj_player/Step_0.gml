@@ -51,7 +51,7 @@ if(plballin){
 		obj_ball.ballin = false;
 		obj_ball.x = x + (100 * -image_xscale) 
 		obj_ball.hsp = 20 * -image_xscale
-		obj_ball.vsp -= 20
+		obj_ball.vsp -= 30
 		alarm[0] = 10; 
 	}
 }

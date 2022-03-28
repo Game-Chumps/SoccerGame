@@ -21,8 +21,8 @@ if(ballin == false){
 	y += vsp
 }
 if(ballin == true){
-	x = obj_player.x
-	y = obj_player.y - (obj_player.sprite_height/2)
+	x = obj_player.x + (30*-obj_player.image_xscale)
+	y = obj_player.y + 15
 }
 
 
