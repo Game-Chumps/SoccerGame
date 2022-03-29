@@ -4,6 +4,7 @@
 //player movement
 leftmove = keyboard_check(ord("A"));
 rightmove = keyboard_check(ord("D"));
+slam = keyboard_check_pressed(ord("S"));
 jump = keyboard_check_pressed(ord("W"));
 
 var _move = rightmove - leftmove;
@@ -17,6 +18,10 @@ vsp += grv;
 
 if (place_meeting(x,y+1,obj_collision)) and (jump){
 	vsp = -pljump;
+}
+
+if (slam){
+	vsp = plslam;
 }
 
 //player collision
