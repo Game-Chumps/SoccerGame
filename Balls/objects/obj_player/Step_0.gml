@@ -45,13 +45,21 @@ if(place_meeting(x,y,obj_ball) and canball){
 		canball = false;
 	}
 
+// Charge up angle of release
+if (keyboard_check(vk_space))
+{
+	spaceholdtime = clamp(spaceholdtime + 1, 0, 75)
+}
+
 if(plballin){
-	if(keyboard_check_pressed(vk_space)){
+	if(keyboard_check_released(vk_space)){
 		plballin = false;
 		obj_ball.ballin = false;
-		obj_ball.x = x + (100 * -image_xscale) 
+		//obj_ball.x = x + (100 * -image_xscale) // - Causes bug where ball clips through walls
 		obj_ball.hsp = 20 * -image_xscale
-		obj_ball.vsp -= 30
+		obj_ball.vsp -= spaceholdtime // Vertical Shot Angle
+		spaceholdtime = 0 // Reset the hold time after releasing space
+		obj_ball.rotangle = 0
 		alarm[0] = 10; 
 	}
 }
