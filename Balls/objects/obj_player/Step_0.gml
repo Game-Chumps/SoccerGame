@@ -48,7 +48,15 @@ if(place_meeting(x,y,obj_ball) and canball){
 // Charge up angle of release
 if (keyboard_check(vk_space))
 {
-	spaceholdtime = clamp(spaceholdtime + 1, 0, 75)
+	if spaceholdtime == 0
+		go_up = true
+	if spaceholdtime == 75
+		go_up = false
+
+	if go_up
+		spaceholdtime = clamp(spaceholdtime + 1, 0, 75)
+	if !go_up
+		spaceholdtime = clamp(spaceholdtime - 1, 0, 75)
 }
 
 if(plballin){

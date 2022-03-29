@@ -5,3 +5,4 @@ vsp = 0;
 grv = 0.7;
 plwalk = 10;
 pljump = 23;
+go_up = true;
