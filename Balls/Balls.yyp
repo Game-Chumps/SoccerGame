@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":1,},
+    {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":6,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"DEVCOMMANDS","path":"objects/DEVCOMMANDS/DEVCOMMANDS.yy",},"order":4,},
     {"id":{"name":"spr_startButton","path":"sprites/spr_startButton/spr_startButton.yy",},"order":4,},
@@ -12,6 +13,7 @@
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},"order":2,},
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},"order":2,},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},"order":3,},
+    {"id":{"name":"spr_player2","path":"sprites/spr_player2/spr_player2.yy",},"order":5,},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":3,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

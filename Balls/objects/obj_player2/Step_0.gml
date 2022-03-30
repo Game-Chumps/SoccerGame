@@ -51,7 +51,7 @@ if(place_meeting(x,y,obj_ball) and canball){
 	}
 
 // Charge up angle of release
-if (keyboard_check(vk_space))
+if (keyboard_check(vk_rshift))
 {
 	if spaceholdtime == 0
 		go_up = true
@@ -65,7 +65,7 @@ if (keyboard_check(vk_space))
 }
 
 if(plballin){
-	if(keyboard_check_released(vk_space)){
+	if(keyboard_check_released(vk_rshift)){
 		plballin = false;
 		obj_ball.ballin = false;
 		//obj_ball.x = x + (100 * -image_xscale) // - Causes bug where ball clips through walls
