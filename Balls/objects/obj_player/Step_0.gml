@@ -65,6 +65,8 @@ if (keyboard_check(vk_space))
 }
 
 if(plballin){
+	obj_ball.x = x + (30*-image_xscale)
+	obj_ball.y = y + 15
 	if(keyboard_check_released(vk_space)){
 		plballin = false;
 		obj_ball.ballin = false;

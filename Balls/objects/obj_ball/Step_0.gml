@@ -20,7 +20,3 @@ if(ballin == false){
 	x += hsp
 	y += vsp
 }
-if(ballin == true){
-	x = obj_player.x + (30*-obj_player.image_xscale)
-	y = obj_player.y + 15
-}

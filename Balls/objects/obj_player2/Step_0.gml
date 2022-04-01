@@ -65,10 +65,10 @@ if (keyboard_check(vk_rshift))
 }
 
 if(plballin){
+	obj_ball.x = x + (30*-image_xscale)
+	obj_ball.y = y + 15
 	if(keyboard_check_released(vk_rshift)){
 		plballin = false;
-		obj_ball.ballin = false;
-		//obj_ball.x = x + (100 * -image_xscale) // - Causes bug where ball clips through walls
 		obj_ball.hsp = 20 * -image_xscale
 		obj_ball.vsp -= spaceholdtime // Vertical Shot Angle
 		spaceholdtime = 0 // Reset the hold time after releasing space
