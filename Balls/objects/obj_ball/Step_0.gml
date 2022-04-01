@@ -20,3 +20,9 @@ if(ballin == false){
 	x += hsp
 	y += vsp
 }
+
+if(ballin == true){
+	if lfballer{
+		lfballer = false
+	}
+}

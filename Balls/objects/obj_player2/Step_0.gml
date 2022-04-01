@@ -46,6 +46,7 @@ y += vsp;
 //player ball controls
 if(place_meeting(x,y,obj_ball) and canball){
 		obj_ball.ballin = true;
+		obj_ball.currballer = self;
 		plballin = true;
 		canball = false;
 	}
@@ -69,6 +70,7 @@ if(plballin){
 	obj_ball.y = y + 15
 	if(keyboard_check_released(vk_rshift)){
 		plballin = false;
+		obj_ball.ballin = false;
 		obj_ball.hsp = 20 * -image_xscale
 		obj_ball.vsp -= spaceholdtime // Vertical Shot Angle
 		spaceholdtime = 0 // Reset the hold time after releasing space

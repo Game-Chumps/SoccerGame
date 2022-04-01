@@ -46,6 +46,7 @@ y += vsp;
 //player ball controls
 if(place_meeting(x,y,obj_ball) and canball){
 		obj_ball.ballin = true;
+		obj_ball.currballer = self
 		plballin = true;
 		canball = false;
 	}
