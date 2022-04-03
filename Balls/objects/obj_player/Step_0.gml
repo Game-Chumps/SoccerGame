@@ -1,11 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-//player movement
-leftmove = keyboard_check(ord(key_left));
-rightmove = keyboard_check(ord(key_right));
+//player movement + controller
+leftmove = keyboard_check(ord(key_left)) || (gamepad_axis_value(0, gp_axislh) < 0);
+rightmove = keyboard_check(ord(key_right)) || (gamepad_axis_value(0, gp_axislh) > 0);
 slam = keyboard_check_pressed(ord(key_down));
-jump = keyboard_check_pressed(ord(key_up));
+jump = keyboard_check_pressed(ord(key_up)) || (gamepad_button_check_pressed(0, gp_face1));
 
 var _move = rightmove - leftmove;
 
@@ -52,7 +51,7 @@ if(place_meeting(x,y,obj_ball) and canball){
 	}
 
 // Charge up angle of release
-if (keyboard_check(vk_space))
+if (keyboard_check(vk_space) || gamepad_button_check(0, gp_face2))
 {
 	if spaceholdtime == 0
 		go_up = true
@@ -68,7 +67,7 @@ if (keyboard_check(vk_space))
 if(plballin){
 	obj_ball.x = x + (30*-image_xscale)
 	obj_ball.y = y + 15
-	if(keyboard_check_released(vk_space)){
+	if(keyboard_check_released(vk_space) || gamepad_button_check_released(0, gp_face2)){
 		plballin = false;
 		obj_ball.ballin = false;
 		obj_ball.hsp = 20 * -image_xscale
