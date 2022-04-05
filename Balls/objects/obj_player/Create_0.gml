@@ -7,6 +7,8 @@ plwalk = 10;
 pljump = 23;
 plslam = 50;
 go_up = true;
+charging = false;
+canCharge = true;
 
 //deadzone to make controller less frustrating
 gamepad_set_axis_deadzone(0, 0.4)
