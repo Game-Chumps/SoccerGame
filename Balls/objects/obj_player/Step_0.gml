@@ -15,6 +15,8 @@ if !charging hsp = _move * plwalk;
 
 vsp += grv;
 
+if !plballin spaceholdtime = 0; //if not holding ball, reset shot angle
+
 if (place_meeting(x,y+1,obj_collision)) and (jump){
 	vsp = -pljump;
 }
@@ -49,6 +51,7 @@ if(place_meeting(x,y,obj_ball) and canball and !obj_ball.ballin){
 		plballin = true;
 		canball = false;
 	}
+	
 //tackling other players
 if(place_meeting(x,y,obj_player) and charging and obj_ball.ballin){
 		obj_ball.ballin = true;
@@ -57,28 +60,21 @@ if(place_meeting(x,y,obj_player) and charging and obj_ball.ballin){
 		canball = false;
 	}
 
-//getting hit by tackle DOESNT WORK UGHHHHHH
-if(place_meeting(x,y,obj_player) and obj_player.charging and plballin){
-		plballin = false;
-		canball = true;
-		obj_ball.ballin = false;
-		canball = false; //Ensures the player can't pick up the ball immediately
-		alarm[0] = 50;
-	}
+
 
 //stun tackle
-if (keyboard_check_pressed(ord("Z")) and canCharge and !plballin){
+if (keyboard_check_pressed(ord(key_tackle)) and canCharge and !plballin){
 	charging = true
 	canCharge = false
 	hsp = _move * plwalk * 4
-	alarm[1] = 10
-	alarm[2] = 300
+	alarm[1] = 10 //tackle length
+	alarm[2] = 300 //tackle CD
 }
 
 
 
 // Charge up angle of release
-if (keyboard_check(key_shoot) || gamepad_button_check(plcontrollerslot, gp_face2))
+if (keyboard_check(key_shoot) || gamepad_button_check(plcontrollerslot, gp_face2) and plballin)
 {
 	if spaceholdtime == 0
 		go_up = true
@@ -94,12 +90,11 @@ if (keyboard_check(key_shoot) || gamepad_button_check(plcontrollerslot, gp_face2
 if(plballin){
 	obj_ball.x = x + (30*-image_xscale)
 	obj_ball.y = y + 15
-	if(keyboard_check_released(key_shoot) || gamepad_button_check_released(plcontrollerslot, gp_face2)){
+	if(keyboard_check_released(key_shoot) || gamepad_button_check_released(plcontrollerslot, gp_face2) and plballin){
 		plballin = false;
 		obj_ball.ballin = false;
 		obj_ball.hsp = 20 * -image_xscale
 		obj_ball.vsp -= spaceholdtime // Vertical Shot Angle
-		spaceholdtime = 0 // Reset the hold time after releasing space
 		obj_ball.rotangle = 0
 		canball = false; //Ensures the player can't pick up the ball immediately
 		alarm[0] = 10; 
