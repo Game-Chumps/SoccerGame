@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"path_goal","path":"paths/path_goal/path_goal.yy",},"order":0,},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":1,},
+    {"id":{"name":"rm_floating","path":"rooms/rm_floating/rm_floating.yy",},"order":3,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":1,},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":6,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
@@ -37,6 +39,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
+    {"roomId":{"name":"rm_floating","path":"rooms/rm_floating/rm_floating.yy",},},
     {"roomId":{"name":"rm_challenge","path":"rooms/rm_challenge/rm_challenge.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
