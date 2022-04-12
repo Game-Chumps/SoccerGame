@@ -33,15 +33,11 @@ if(place_meeting(x+hsp,y,obj_collision)){
 	hsp = 0;
 }
 
-// Anti-traveling
-// If the player is holding the ball
 if plballin{
-	// Set up a timer
 	timer_start += 1
-	// Calculate how much to remove speed by based on log graph that functions based off time ball is held
-	log_vel_punch = clamp(abs(-logn(clamp(timer_start / 450, 0, 1), abs(hsp))), 1, 25)
-	// Remove velocity from player based on function location
-	hsp /= log_vel_punch
+	//hsp *= logn(timer_start, hsp)
+	log_vel_punch = clamp(-logn(clamp(timer_start / 300, 0, 1), abs(hsp)), 0, 50)
+	hsp /= abs(log_vel_punch)
 }
 else{
 	timer_start = 0
@@ -65,7 +61,7 @@ if(place_meeting(x,y,obj_ball) and canball and !obj_ball.ballin){
 		plballin = true;
 		canball = false;
 	}
-
+	
 //tackling other players
 if(place_meeting(x,y,obj_player) and charging and obj_ball.ballin){
 		obj_ball.ballin = true;
@@ -73,6 +69,8 @@ if(place_meeting(x,y,obj_player) and charging and obj_ball.ballin){
 		plballin = true;
 		canball = false;
 	}
+
+
 
 //stun tackle
 if (keyboard_check_pressed(ord(key_tackle)) and canCharge and !plballin){
@@ -82,6 +80,8 @@ if (keyboard_check_pressed(ord(key_tackle)) and canCharge and !plballin){
 	alarm[1] = 10 //tackle length
 	alarm[2] = 300 //tackle CD
 }
+
+
 
 // Charge up angle of release
 if (keyboard_check(key_shoot) || gamepad_button_check(plcontrollerslot, gp_face2) and plballin)
@@ -107,6 +107,6 @@ if(plballin){
 		obj_ball.vsp -= spaceholdtime // Vertical Shot Angle
 		obj_ball.rotangle = 0
 		canball = false; //Ensures the player can't pick up the ball immediately
-		alarm[0] = 10;
+		alarm[0] = 10; 
 	}
 }
