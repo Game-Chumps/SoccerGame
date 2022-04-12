@@ -33,6 +33,16 @@ if(place_meeting(x+hsp,y,obj_collision)){
 	hsp = 0;
 }
 
+if plballin{
+	timer_start += 1
+	//hsp *= logn(timer_start, hsp)
+	log_vel_punch = clamp(-logn(clamp(timer_start / 300, 0, 1), abs(hsp)), 0, 50)
+	hsp /= abs(log_vel_punch)
+}
+else{
+	timer_start = 0
+}
+
 x += hsp;
 
 if(place_meeting(x,y + vsp,obj_collision)){

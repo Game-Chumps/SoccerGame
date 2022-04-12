@@ -9,6 +9,7 @@ plslam = 50;
 go_up = true;
 charging = false;
 canCharge = true;
+timer_start = 0;
 
 //deadzone to make controller less frustrating
 gamepad_set_axis_deadzone(0, 0.4)
