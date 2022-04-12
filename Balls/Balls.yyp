@@ -37,8 +37,11 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"roomId":{"name":"rm_floating","path":"rooms/rm_floating/rm_floating.yy",},},
     {"roomId":{"name":"rm_challenge","path":"rooms/rm_challenge/rm_challenge.yy",},},
+=======
+>>>>>>> parent of 8726472 (Challenge room added ROUGH)
 =======
 >>>>>>> parent of 8726472 (Challenge room added ROUGH)
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
