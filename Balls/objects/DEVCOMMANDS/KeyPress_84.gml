@@ -3,4 +3,4 @@
 if (room != room_last)
 	room_goto_next()
 else
-	room_goto(0)
+	room_goto(room_first)
