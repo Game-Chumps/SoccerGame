@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //player movement + controller
+plcontrollerslot = shootcontroller.connected_gamepads[plcontrollernum]
 if(scoreboard.gameDone == false){
 leftmove = keyboard_check(ord(key_left)) || (gamepad_axis_value(plcontrollerslot, gp_axislh) < 0);
 rightmove = keyboard_check(ord(key_right)) || (gamepad_axis_value(plcontrollerslot, gp_axislh) > 0);
