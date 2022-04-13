@@ -4,6 +4,11 @@
 // Destroy current instance of ball when colliding with goal
 instance_destroy();
 
+obj_player.plballin = false
+obj_player2.plballin = false
+ballin = false
+lfballer = true
+
 scoreboard.team2Score += 1
 
 // Respawn ball on collision with goals

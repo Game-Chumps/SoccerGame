@@ -30,9 +30,9 @@ if (slam){
 	vsp = plslam;
 }
 
-//player collision
-if(place_meeting(x+hsp,y,obj_collision)){
-	while(!place_meeting(x+sign(hsp),y,obj_collision)){
+//player collision (with net)
+if(place_meeting(x+hsp,y,obj_collision) || place_meeting(x+hsp,y,obj_net)){
+	while(!place_meeting(x+sign(hsp),y,obj_collision) and !place_meeting(x+hsp,y,obj_net)){
 		x += sign(hsp);
 	}
 	hsp = 0;
@@ -52,8 +52,9 @@ else{
 
 x += hsp;
 
-if(place_meeting(x,y + vsp,obj_collision)){
-	while(!place_meeting(x,y + sign(vsp),obj_collision)){
+//vertical collision
+if(place_meeting(x,y + vsp,obj_collision) || place_meeting(x,y + vsp,obj_net)){
+	while(!place_meeting(x,y + sign(vsp),obj_collision) and !place_meeting(x,y + sign(vsp),obj_net)){
 		y += sign(vsp);
 	}
 	vsp = 0;

@@ -1,7 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 // Destroy current instance of ball when colliding with goal
 instance_destroy();
+
+obj_player.plballin = false
+obj_player2.plballin = false
+ballin = false
+lfballer = true
 
 scoreboard.team1Score += 1
 
