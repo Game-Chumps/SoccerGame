@@ -20,8 +20,10 @@ if scoreboard.countDownTimer <= 1
 		draw_text_transformed(20, 25, "Team 1 Wins", 2, 2, 0)
 	if scoreboard.team1Score > scoreboard.team2Score
 		draw_text_transformed(20, 25, "Team 2 Wins", 2, 2, 0)
+	gameDone = true;
 }
 else
 {
 	scoreboard.countDownTimer -= delta_time / 1000000
+	gameDone = false;
 }

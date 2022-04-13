@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //player movement + controller
+if(scoreboard.gameDone == false){
 leftmove = keyboard_check(ord(key_left)) || (gamepad_axis_value(plcontrollerslot, gp_axislh) < 0);
 rightmove = keyboard_check(ord(key_right)) || (gamepad_axis_value(plcontrollerslot, gp_axislh) > 0);
 slam = keyboard_check_pressed(ord(key_down));
@@ -111,4 +112,6 @@ if(plballin){
 		canball = false; //Ensures the player can't pick up the ball immediately
 		alarm[0] = 10; 
 	}
+}
+
 }
