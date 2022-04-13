@@ -58,7 +58,7 @@ if(place_meeting(x,y + vsp,obj_collision)){
 y += vsp;
 
 //player ball controls
-if(place_meeting(x,y,obj_ball) and canball and !obj_ball.ballin and (keyboard_check_pressed(ord(key_grab)) or gamepad_button_check(plcontrollerslot, gp_face4))){
+if(place_meeting(x,y,obj_ball) and canball and !obj_ball.ballin and (keyboard_check_pressed(ord(key_grab)) or gamepad_button_check(plcontrollerslot, gp_face3) || gamepad_button_check(plcontrollerslot, 32773))){
 		obj_ball.ballin = true;
 		obj_ball.currballer = self
 		plballin = true;
