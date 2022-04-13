@@ -41,8 +41,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
-    {"roomId":{"name":"rm_floating","path":"rooms/rm_floating/rm_floating.yy",},},
     {"roomId":{"name":"rm_challenge","path":"rooms/rm_challenge/rm_challenge.yy",},},
+    {"roomId":{"name":"rm_floating","path":"rooms/rm_floating/rm_floating.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
