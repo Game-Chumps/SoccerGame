@@ -5,8 +5,10 @@ plcontrollerslot = shootcontroller.connected_gamepads[plcontrollernum]
 if(scoreboard.gameDone == false){
 leftmove = keyboard_check(ord(key_left)) || (gamepad_axis_value(plcontrollerslot, gp_axislh) < 0);
 rightmove = keyboard_check(ord(key_right)) || (gamepad_axis_value(plcontrollerslot, gp_axislh) > 0);
-slam = keyboard_check_pressed(ord(key_down));
+slam = keyboard_check_pressed(ord(key_down)) || ((gamepad_axis_value(plcontrollerslot, gp_axislv) > 0.99));
 jump = keyboard_check_pressed(ord(key_up)) || (gamepad_button_check_pressed(plcontrollerslot, gp_face1));
+
+vsp = clamp(vsp, -40, 40)
 
 var _move = rightmove - leftmove;
 

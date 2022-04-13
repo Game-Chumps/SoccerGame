@@ -9,5 +9,3 @@ for (var i = 0; i < 12; i++)
 		v++
 	}
 }
-
-show_debug_message(connected_gamepads)
