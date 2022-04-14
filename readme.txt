@@ -13,6 +13,7 @@ Presented By:
 
 ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
 Instructions:
+	- Select a map with the cursor or via left/right on a keyboard or controller, and enter / X on controller to select
 	- 2 players are placed into a map
 	- Move around the map and grab the ball using the grab key
 	- Hold down the shoot key to charge up your shot by changing it's angle
