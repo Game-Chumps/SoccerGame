@@ -14,8 +14,8 @@ vsp = clamp(vsp, -40, 40)
 
 var _move = rightmove - leftmove;
 
-if sign(_move) < 0 image_xscale = 1
-if sign(_move) > 0 image_xscale = -1
+if sign(_move) < 0 image_xscale = 0.7
+if sign(_move) > 0 image_xscale = -0.7
 
 if !charging hsp = _move * plwalk;
 
