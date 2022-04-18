@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_RoomOne",
-    "path": "sprites/spr_RoomOne/spr_RoomOne.yy",
+    "name": "spr_randomButton",
+    "path": "sprites/spr_randomButton/spr_randomButton.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,19 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
-  "properties": [
-    {"varType":1,"value":"4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"roomNumber","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "eventList": [],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_RoomOne",
+  "name": "obj_randomButton",
   "tags": [],
   "resourceType": "GMObject",
 }

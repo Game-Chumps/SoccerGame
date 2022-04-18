@@ -12,5 +12,6 @@ canCharge = true;
 timer_start = 0;
 plcontrollerslot = -1
 image_speed = 0
+instance_create_layer(0,0,"Instances",playerStats)
 //deadzone to make controller less frustrating
 gamepad_set_axis_deadzone(0, 0.4)

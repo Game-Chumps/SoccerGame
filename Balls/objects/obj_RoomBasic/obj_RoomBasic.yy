@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_selector",
-    "path": "sprites/spr_selector/spr_selector.yy",
+    "name": "spr_RoomBasic",
+    "path": "sprites/spr_RoomBasic/spr_RoomBasic.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_selector",
+  "name": "obj_RoomBasic",
   "tags": [],
   "resourceType": "GMObject",
 }
