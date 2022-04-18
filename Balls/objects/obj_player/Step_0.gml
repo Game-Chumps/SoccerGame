@@ -19,6 +19,11 @@ if sign(_move) > 0 image_xscale = -1
 
 if !charging hsp = _move * plwalk;
 
+if (!canCharge) {
+	charge_curr_CD -= 1;
+	if charge_curr_CD <= 0 canCharge = true;
+}
+
 vsp += grv;
 
 if _move != 0 image_speed = 1 else image_speed = 0 //characters only animate when moving
@@ -87,9 +92,9 @@ if(place_meeting(x,y,obj_player) and charging and obj_ball.ballin){
 if ((keyboard_check_pressed(ord(key_tackle)) || gamepad_button_check(plcontrollerslot, gp_face3) || gamepad_button_check(plcontrollerslot, 32773) /*hardcoded value as my second controller uses some weird key id which isn't natively mapped in gml lol...*/) and canCharge and !plballin){
 	charging = true
 	canCharge = false
+	charge_curr_CD = charge_max_CD
 	hsp = _move * plwalk * 4
 	alarm[1] = 10 //tackle length
-	alarm[2] = 300 //tackle CD
 }
 
 
