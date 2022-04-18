@@ -21,6 +21,8 @@ if !charging hsp = _move * plwalk;
 
 vsp += grv;
 
+if _move != 0 image_speed = 1 else image_speed = 0 //characters only animate when moving
+
 if !plballin spaceholdtime = 0; //if not holding ball, reset shot angle
 
 if (place_meeting(x,y+1,obj_collision)) and (jump){
