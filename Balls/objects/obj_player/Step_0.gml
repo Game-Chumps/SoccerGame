@@ -50,7 +50,7 @@ if plballin{
 	// Set up a timer
 	timer_start += 1
 	// Calculate how much to remove speed by based on log graph that functions based off time ball is held
-	log_vel_punch = clamp(abs(-logn(clamp(timer_start / 450, 0, 1), abs(hsp))), 1, 25)
+	log_vel_punch = clamp(abs(-logn(clamp(timer_start / 650, 0, 1), abs(hsp))), 1, 25)
 	// Remove velocity from player based on function location
 	hsp /= abs(log_vel_punch)
 }
