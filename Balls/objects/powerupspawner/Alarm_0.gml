@@ -4,19 +4,25 @@
 collisions = []
 ctx = 0
 
+// Iterate through all wall/floor collision instances
 for (var i = 0; i < instance_number(obj_collision); i++)
 {
+	// Find ones that are valid for spawning
 	if (	(instance_find(obj_collision, i).y > 100)
 		and (instance_find(obj_collision, i).x > 200)
 		and (instance_find(obj_collision, i).x < room_width - 200))
 	{
+		// Add valid spawn collisions to array
 		collisions[ctx] = instance_find(obj_collision,i)
 		ctx++
 	}
 }
 
+// Pick random collision to spawn powerup on
 spawn_pos = irandom(array_length(collisions) - 1)
 
+// Spawn powerup
 instance_create_layer(collisions[spawn_pos].x, collisions[spawn_pos].y - 60, "Instances", obj_speed)
 
+// Reset alarm
 alarm_set(0, 1000);
