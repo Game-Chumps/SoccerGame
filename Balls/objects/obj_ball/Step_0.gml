@@ -23,6 +23,7 @@ if(ballin == false){
 		if (powerupTimer > 0)
 		{
 			x += hsp * 1.75
+			powerupTimer--
 		}
 		else
 		{

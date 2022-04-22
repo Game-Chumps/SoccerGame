@@ -1,8 +1,9 @@
 if (zoomin)
 {
-	dirvsp = round(round(vsp / 1.5) * 1.5)
-	dirhsp = round(round(hsp / 1.5) * 1.5)
-
+	// Some rounding calcs to make it not glitch as much
+	dirvsp = ceil(round(vsp / 1.5) * 1.5)
+	dirhsp = ceil(round(hsp / 1.5) * 1.5)
+	
 	zoomdir = point_direction(x, y, x-dirvsp, y+dirhsp)
 }
 
