@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "CharacterSelectScreen",
+    "path": "folders/Sprites/CharacterSelectScreen.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_nyi",
