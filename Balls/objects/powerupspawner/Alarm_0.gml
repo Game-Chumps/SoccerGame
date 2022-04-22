@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 collisions = []
-powerups = [obj_speed]
+powerups = [obj_speed, obj_dbljmp]
 ctx = 0
 
 // Iterate through all wall/floor collision instances
