@@ -25,4 +25,4 @@ spawn_pos = irandom(array_length(collisions) - 1)
 instance_create_layer(collisions[spawn_pos].x, collisions[spawn_pos].y - 60, "Instances", obj_speed)
 
 // Reset alarm
-alarm_set(0, 1000);
+alarm_set(0, 1300);
