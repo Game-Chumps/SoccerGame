@@ -24,6 +24,20 @@ if (!canCharge) {
 	if charge_curr_CD <= 0 canCharge = true;
 }
 
+if (hasSpeedUp)
+{
+	if (powerupTimer > 0)
+	{
+		powerupTimer -= 1;
+		hsp = _move * plwalk * 1.5
+	}
+	else
+	{
+		hasSpeedUp = false;
+	}
+}
+
+
 vsp += grv;
 
 if _move != 0 image_speed = 1 else image_speed = 0 //characters only animate when moving
