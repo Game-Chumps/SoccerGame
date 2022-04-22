@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 collisions = []
-powerups = [obj_speed, obj_dbljmp]
+powerups = [obj_speed, obj_dbljmp, obj_zoomball]
 ctx = 0
 should_run_spawner = true
 

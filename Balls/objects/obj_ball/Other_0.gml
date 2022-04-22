@@ -6,5 +6,3 @@ x = random_range(250,1600);
 vsp = 0;
 hsp = 0;
 rotangle = 0;
-
-show_debug_message(display_get_height())

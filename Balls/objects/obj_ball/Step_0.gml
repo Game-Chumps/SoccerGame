@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if(ballin == false){
 	vsp += grv;
 
@@ -17,7 +18,21 @@ if(ballin == false){
 		}
 		vsp *=-colldecay;
 	}
-	x += hsp
+	if (zoomin)
+	{
+		if (powerupTimer > 0)
+		{
+			x += hsp * 1.75
+		}
+		else
+		{
+			zoomin = false
+		}
+	}
+	else
+	{
+		x += hsp
+	}
 	y += vsp
 }
 
