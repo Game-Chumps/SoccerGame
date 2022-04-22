@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player2",
-    "path": "sprites/spr_player2/spr_player2.yy",
+    "name": "mr_bear",
+    "path": "sprites/mr_bear/mr_bear.yy",
   },
   "solid": false,
   "visible": true,

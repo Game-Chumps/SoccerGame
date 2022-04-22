@@ -56,15 +56,9 @@ else
 	{
 		powerupTimer -= 1;
 		
-		if (jump and jump_counter <= 1)
+		if (jump)
 		{
 			vsp = -pljump;
-			jump_counter += 1
-		}
-		if (place_meeting(x,y+1,obj_collision))
-		{
-			// you can double jump!
-			jump_counter = 0
 		}
 	}
 	else
