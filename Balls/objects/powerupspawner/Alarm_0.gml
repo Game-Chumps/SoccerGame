@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 collisions = []
+powerups = [obj_speed]
 ctx = 0
 
 // Iterate through all wall/floor collision instances
@@ -20,9 +21,10 @@ for (var i = 0; i < instance_number(obj_collision); i++)
 
 // Pick random collision to spawn powerup on
 spawn_pos = irandom(array_length(collisions) - 1)
+spawn_pwrup = irandom(array_length(powerups) - 1)
 
 // Spawn powerup
-instance_create_layer(collisions[spawn_pos].x, collisions[spawn_pos].y - 60, "Instances", obj_speed)
+instance_create_layer(collisions[spawn_pos].x, collisions[spawn_pos].y - 60, "Instances", powerups[spawn_pwrup])
 
 // Reset alarm
 alarm_set(0, 1300);

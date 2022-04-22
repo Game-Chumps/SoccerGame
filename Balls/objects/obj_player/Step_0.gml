@@ -44,8 +44,33 @@ if _move != 0 image_speed = 1 else image_speed = 0 //characters only animate whe
 
 if !plballin spaceholdtime = 0; //if not holding ball, reset shot angle
 
-if (place_meeting(x,y+1,obj_collision)) and (jump){
-	vsp = -pljump;
+if (!hasDblJmp)
+{
+	if (place_meeting(x,y+1,obj_collision)) and (jump){
+		vsp = -pljump;
+	}
+}
+else
+{
+	if (powerupTimer > 0)
+	{
+		powerupTimer -= 1;
+		
+		if (jump and jump_counter <= 1)
+		{
+			vsp = -pljump;
+			jump_counter += 1
+		}
+		if (place_meeting(x,y+1,obj_collision))
+		{
+			// you can double jump!
+			jump_counter = 0
+		}
+	}
+	else
+	{
+		hasDblJmp = false;
+	}
 }
 
 if (slam){

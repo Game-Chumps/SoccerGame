@@ -11,6 +11,7 @@ charging = false;
 canCharge = true;
 timer_start = 0;
 plcontrollerslot = -1
+jump_counter = 0
 image_speed = 0
 instance_create_layer(0,0,"Instances",playerStats)
 //deadzone to make controller less frustrating
