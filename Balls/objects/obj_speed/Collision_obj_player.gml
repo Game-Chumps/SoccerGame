@@ -2,5 +2,5 @@
 // You can write your code in this editor
 instance_destroy()
 
-obj_player.powerupTimer = powerupTimer
-obj_player.hasSpeedUp = true
+other.powerupTimer = powerupTimer
+other.hasSpeedUp = true
