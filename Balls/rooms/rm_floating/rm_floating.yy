@@ -23,6 +23,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"shootcontroller","path":"objects/shootcontroller/shootcontroller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1536.0,"y":224.0,"resourceVersion":"1.0","name":"inst_35AD080","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"DEVCOMMANDS","path":"objects/DEVCOMMANDS/DEVCOMMANDS.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":224.0,"resourceVersion":"1.0","name":"inst_C749349","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"powerupspawner","path":"objects/powerupspawner/powerupspawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1408.0,"y":224.0,"resourceVersion":"1.0","name":"inst_52DC2372","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"playmusic","path":"objects/playmusic/playmusic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1664.0,"y":224.0,"resourceVersion":"1.0","name":"inst_3C72EA27","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"pathId":null,"colour":4278190335,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Path_1","tags":[],"resourceType":"GMRPathLayer",},
     {"instances":[
@@ -120,6 +121,7 @@
     {"name":"inst_591B28B4","path":"rooms/rm_floating/rm_floating.yy",},
     {"name":"inst_6C00A450","path":"rooms/rm_floating/rm_floating.yy",},
     {"name":"inst_52DC2372","path":"rooms/rm_floating/rm_floating.yy",},
+    {"name":"inst_3C72EA27","path":"rooms/rm_floating/rm_floating.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
