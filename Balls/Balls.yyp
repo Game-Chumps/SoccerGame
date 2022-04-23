@@ -28,6 +28,7 @@
     {"id":{"name":"obj_dbljmp","path":"objects/obj_dbljmp/obj_dbljmp.yy",},"order":24,},
     {"id":{"name":"spr_title_logo","path":"sprites/spr_title_logo/spr_title_logo.yy",},"order":4,},
     {"id":{"name":"snd_themesong","path":"sounds/snd_themesong/snd_themesong.yy",},"order":0,},
+    {"id":{"name":"world_background_float","path":"sprites/world_background_float/world_background_float.yy",},"order":31,},
     {"id":{"name":"levelpicker","path":"objects/levelpicker/levelpicker.yy",},"order":16,},
     {"id":{"name":"obj_goal2","path":"objects/obj_goal2/obj_goal2.yy",},"order":9,},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},"order":1,},
@@ -124,7 +125,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.2.0.614",
   },
   "resourceVersion": "1.5",
   "name": "Balls",
