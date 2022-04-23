@@ -21,5 +21,5 @@ else
 
 draw_sprite_ext(spr_ball,image_index,x,y,image_xscale,image_yscale, rotangle,c_white,1)
 
-if (zoomin)
+if (zoomin and hsp > 15)
 	draw_sprite_ext(spr_fire,image_index,x,y,image_xscale,image_yscale, zoomdir,c_white,1)
