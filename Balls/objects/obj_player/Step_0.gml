@@ -141,6 +141,8 @@ if(place_meeting(x,y,obj_ball) and canball and !obj_ball.ballin and (keyboard_ch
 	
 //tackling other players
 if(place_meeting(x,y,obj_player) and charging and obj_ball.ballin){
+	
+		audio_play_sound(snd_crowd_ballSteal, 10, false);
 		obj_ball.ballin = true;
 		obj_ball.currballer = self;
 		plballin = true;

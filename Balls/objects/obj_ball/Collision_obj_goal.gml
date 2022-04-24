@@ -4,6 +4,8 @@
 // Destroy current instance of ball when colliding with goal
 instance_destroy();
 
+
+audio_play_sound(snd_crowd_goal,10,false)
 obj_player.plballin = false
 obj_player2.plballin = false
 obj_player.canball = true
