@@ -6,6 +6,8 @@ instance_destroy();
 
 obj_player.plballin = false
 obj_player2.plballin = false
+obj_player.canball = true
+obj_player2.canball = true
 ballin = false
 lfballer = true
 
