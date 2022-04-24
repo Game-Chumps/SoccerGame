@@ -9,6 +9,7 @@
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":1,},
     {"id":{"name":"rm_floating","path":"rooms/rm_floating/rm_floating.yy",},"order":3,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":1,},
+    {"id":{"name":"mr_bear_holding","path":"sprites/mr_bear_holding/mr_bear_holding.yy",},"order":33,},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":6,},
     {"id":{"name":"spr_RoomBasic","path":"sprites/spr_RoomBasic/spr_RoomBasic.yy",},"order":0,},
     {"id":{"name":"playmusic","path":"objects/playmusic/playmusic.yy",},"order":29,},
@@ -128,7 +129,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.2.0.614",
   },
   "resourceVersion": "1.5",
   "name": "Balls",
