@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_floating_goal",
-    "path": "sprites/spr_floating_goal/spr_floating_goal.yy",
+    "name": "spr_floating_goal2",
+    "path": "sprites/spr_floating_goal2/spr_floating_goal2.yy",
   },
   "solid": false,
   "visible": true,
