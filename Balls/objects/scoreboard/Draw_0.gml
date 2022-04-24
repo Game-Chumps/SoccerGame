@@ -7,9 +7,9 @@ current_min_left = floor(scoreboard.countDownTimer / 60)
 current_sec_left = floor(scoreboard.countDownTimer) - current_min_left * 60
 
 if(room == 4){
-	draw_set_color(c_ltgray)
+	draw_set_color(c_lime)
 } else{
-draw_set_color(c_dkgray)
+draw_set_color(c_lime)
 }
 
 //draw_text_transformed(875, 0, "SCOREBOARD", 2, 2, 0)
@@ -20,6 +20,7 @@ draw_text_transformed(500, 25, string(current_min_left) + ":" + string(current_s
 
 if scoreboard.countDownTimer <= 1
 {
+	
 	if scoreboard.team2Score > scoreboard.team1Score
 		draw_text_transformed(1020, 50, "Team 1 Wins", 2, 2, 0)
 	if scoreboard.team1Score > scoreboard.team2Score
@@ -27,9 +28,11 @@ if scoreboard.countDownTimer <= 1
 	if scoreboard.team1Score == scoreboard.team2Score
 		draw_text_transformed(1020, 50, "It's a Tie!", 2, 2, 0)
 	gameDone = true;
+	
 }
 else
 {
 	scoreboard.countDownTimer -= delta_time / 1000000
 	gameDone = false;
 }
+
