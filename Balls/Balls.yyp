@@ -47,7 +47,7 @@
     {"id":{"name":"spr_characterSelect","path":"sprites/spr_characterSelect/spr_characterSelect.yy",},"order":1,},
     {"id":{"name":"spr_instructionButton","path":"sprites/spr_instructionButton/spr_instructionButton.yy",},"order":2,},
     {"id":{"name":"spr_speed","path":"sprites/spr_speed/spr_speed.yy",},"order":18,},
-    {"id":{"name":"spr_dbljmp","path":"sprites/spr_dbljmp/spr_dbljmp.yy",},"order":19,},
+    {"id":{"name":"spr_unlimitedjmp","path":"sprites/spr_unlimitedjmp/spr_unlimitedjmp.yy",},"order":19,},
     {"id":{"name":"spr_selectAMap","path":"sprites/spr_selectAMap/spr_selectAMap.yy",},"order":4,},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},"order":0,},
     {"id":{"name":"obj_player2Stat","path":"objects/obj_player2Stat/obj_player2Stat.yy",},"order":19,},

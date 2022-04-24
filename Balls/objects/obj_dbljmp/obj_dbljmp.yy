@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_dbljmp",
-    "path": "sprites/spr_dbljmp/spr_dbljmp.yy",
+    "name": "spr_unlimitedjmp",
+    "path": "sprites/spr_unlimitedjmp/spr_unlimitedjmp.yy",
   },
   "solid": false,
   "visible": true,
