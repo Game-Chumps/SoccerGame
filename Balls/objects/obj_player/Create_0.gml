@@ -14,6 +14,7 @@ plcontrollerslot = -1
 jump_counter = 0
 sprite_state_counter = 0
 image_speed = 0
+sprite_index = spriteholdA.spritehold
 instance_create_layer(0,0,"Instances",playerStats)
 //deadzone to make controller less frustrating
 gamepad_set_axis_deadzone(plcontrollernum, 0.4)

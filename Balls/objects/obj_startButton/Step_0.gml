@@ -5,6 +5,6 @@
 	if gamepad_is_connected(i)
 	{
 		if gamepad_button_check_pressed(i, gp_face1)
-			room_goto(map_selection);
+			room_goto(rm_charSelect);
 	}
-}*/
+}/*

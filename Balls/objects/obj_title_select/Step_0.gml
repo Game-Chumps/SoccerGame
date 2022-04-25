@@ -20,7 +20,7 @@ for (var i = 0; i < 12; i++)
 		
 		if gamepad_button_check_pressed(i, gp_face2){
 			switch(current_selection){
-				case 0: room_goto(map_selection)
+				case 0: room_goto(rm_charSelect)
 						break;
 				case 1: room_goto(rm_instructions)
 						break;
@@ -48,7 +48,7 @@ if current_selection >= 0 and current_selection <= 3{
 
 if keyboard_check_pressed(vk_enter){
 	switch(current_selection){
-				case 0: room_goto(map_selection)
+				case 0: room_goto(rm_charSelect)
 						break;
 				case 1: room_goto(rm_instructions)
 						break;
