@@ -15,8 +15,53 @@ for (var i = 0; i < 12; i++)
 
 			if gamepad_button_check_pressed(i, gp_padu)
 				if current_selection == 0 current_selection = 3 else current_selection -= 1
+
+		
+		
+		if gamepad_button_check_pressed(i, gp_face2){
+			switch(current_selection){
+				case 0: room_goto(map_selection)
+						break;
+				case 1: room_goto(rm_instructions)
+						break;
+				case 2: room_goto(rm_credits)
+						break;
+				case 3: game_end()
+						break;
+				default: break;
+			}
+		}
+		
+		}
+	}
+	}
 	
-		switch(current_selection){
+	//keyboard controls
+if current_selection >= 0 and current_selection <= 3{
+	if keyboard_check_pressed(vk_down)
+		if current_selection == 3 current_selection = 0 else current_selection += 1
+
+	if keyboard_check_pressed(vk_up)
+		if current_selection == 0 current_selection = 3 else current_selection -= 1
+		
+}
+
+if keyboard_check_pressed(vk_enter){
+	switch(current_selection){
+				case 0: room_goto(map_selection)
+						break;
+				case 1: room_goto(rm_instructions)
+						break;
+				case 2: room_goto(rm_credits)
+						break;
+				case 3: game_end()
+						break;
+				default: break;
+			}
+}
+
+//display options
+switch(current_selection){
 				case 0: obj_startButton.image_index = 1;
 						obj_instructionButton.image_index = 0;
 						obj_creditButton.image_index = 0;
@@ -47,22 +92,3 @@ for (var i = 0; i < 12; i++)
 						obj_exitButton.image_index = 0;
 						break;
 			}
-		
-		
-		if gamepad_button_check_pressed(i, gp_face2){
-			switch(current_selection){
-				case 0: room_goto(map_selection)
-						break;
-				case 1: room_goto(rm_instructions)
-						break;
-				case 2: room_goto(rm_credits)
-						break;
-				case 3: game_end()
-						break;
-				default: break;
-			}
-		}
-		
-		}
-	}
-	}
