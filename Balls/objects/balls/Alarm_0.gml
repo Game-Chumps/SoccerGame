@@ -15,13 +15,10 @@ if (array_length(ballss) < 7)
 	switch(rand)
 	{
 		default:
-			if (rand % 5 == 0)
+			if (rand % 8 == 0)
 			{
 				obj = instance_create_layer(room_width, 500, "Balls", obj_ball)
 				obj.hspeed = -15
-			}
-			else
-			{
 				obj = instance_create_layer(0, 500, "Balls", obj_ball)
 				obj.hspeed = 15
 			}
