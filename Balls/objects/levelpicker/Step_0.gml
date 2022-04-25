@@ -21,8 +21,8 @@ for (var i = 0; i < 12; i++)
 				if current_selection !=3 {
 					save_select = current_selection
 					current_selection = 3
-					image_xscale = 0.265
-					image_yscale = 0.17
+					image_xscale = 0.363
+					image_yscale = 0.163
 				}
 		}
 		
@@ -57,8 +57,8 @@ if current_selection >= 0 and current_selection <= 2{
 		if current_selection !=3 {
 			save_select = current_selection
 			current_selection = 3
-			image_xscale = 0.265
-			image_yscale = 0.17
+			image_xscale = 0.363
+			image_yscale = 0.163
 		}
 	}
 }
