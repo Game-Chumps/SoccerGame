@@ -107,7 +107,7 @@ else
 	if (powerupTimer > 0)
 	{
 		powerupTimer -= 1;
-		
+
 		if (jump)
 		{
 			vsp = -pljump;
@@ -162,7 +162,7 @@ if(place_meeting(x,y,obj_ball) and canball and !obj_ball.ballin and (keyboard_ch
 		plballin = true;
 		canball = false;
 	}
-	
+
 //tackling other players
 if(place_meeting(x,y,obj_player) and charging and obj_ball.ballin){
 		audio_play_sound(snd_crowd_ballSteal, 10, false);
@@ -204,7 +204,7 @@ if(plballin){
 	obj_ball.x = x + (30*-image_xscale)
 	obj_ball.y = y + 15
 	if(keyboard_check_released(key_shoot) || gamepad_button_check_released(plcontrollerslot, gp_face2) and plballin){
-		
+
 		if(obj_ball.zoomin = true)
 		{
 			audio_play_sound(snd_ballzoomin, 10, false)
@@ -215,7 +215,7 @@ if(plballin){
 		obj_ball.vsp -= spaceholdtime // Vertical Shot Angle
 		obj_ball.rotangle = 0
 		canball = false; //Ensures the player can't pick up the ball immediately
-		alarm[0] = 10; 
+		alarm[0] = 10;
 	}
 }
 
