@@ -88,4 +88,7 @@ Snd_ballzoomin
 Attribution Noncommercial 4.0 License
 https://freesound.org/people/Robinhood76/sounds/564041/
 
+Controller image for instruction screen
+Creative Commons license
+https://pixabay.com/vectors/controller-gamepad-xbox-video-games-1827840/
 ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
