@@ -59,13 +59,8 @@ if (playerpicking == 1){
 					if current_selection == 0 current_selection = 1 else current_selection -= 1
 			}
 			if gamepad_button_check_pressed(i, gp_face2) and canPick{
-				if obj_spriteholder1.spritehold == chars[current_selection]{
-					obj_spriteholder2.spritehold = altchars[current_selection]
-					room_goto(map_selection)
-				}else{
-					obj_spriteholder2.spritehold = chars[current_selection]
-					room_goto(map_selection)
-				}
+				obj_spriteholder2.spritehold = altchars[current_selection]
+				room_goto(map_selection)
 			}
 		}
 	}
@@ -78,13 +73,8 @@ if (playerpicking == 1){
 			if current_selection == 0 current_selection = 1 else current_selection -= 1
 	}
 	if keyboard_check_pressed(vk_enter) and canPick{
-		if obj_spriteholder1.spritehold == chars[current_selection]{
-			obj_spriteholder2.spritehold = altchars[current_selection]
-			room_goto(map_selection)
-		}else{
-			obj_spriteholder2.spritehold = chars[current_selection]
-			room_goto(map_selection)
-		}
+		obj_spriteholder2.spritehold = altchars[current_selection]
+		room_goto(map_selection)
 	}
 }
 
