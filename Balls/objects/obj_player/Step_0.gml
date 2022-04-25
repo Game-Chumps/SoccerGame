@@ -66,6 +66,29 @@ else if object_get_sprite(object_index) == mr_bear or object_get_sprite(object_i
 		sprite_index = mr_bear
 	}
 }
+else if object_get_sprite(object_index) == mr_bear_red or object_get_sprite(object_index) == mr_bear_red_holding
+{
+	if !plballin and _move != 0
+	{
+		image_speed = 1
+		sprite_index = mr_bear_red
+	}
+	else if plballin and _move != 0
+	{
+		image_speed = 1
+		sprite_index = mr_bear_red_holding
+	}
+	else if plballin and _move == 0
+	{
+		image_speed = 0
+		sprite_index = mr_bear_red_holding
+	}
+	else
+	{
+		image_speed = 0
+		sprite_index = mr_bear_red
+	}
+}
 
 
 

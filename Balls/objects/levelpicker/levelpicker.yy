@@ -29,8 +29,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "roomSelect",
+    "path": "folders/Objects/roomSelect.yy",
   },
   "resourceVersion": "1.0",
   "name": "levelpicker",
