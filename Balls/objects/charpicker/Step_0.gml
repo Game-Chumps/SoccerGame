@@ -46,7 +46,6 @@ if (playerpicking == 0){
 
 if (playerpicking == 1){
 	obj_p2.sprite_index = altchars[current_selection]
-	
 	for (var i = 0; i < 12; i++)
 	{
 		if gamepad_is_connected(i)
@@ -58,9 +57,12 @@ if (playerpicking == 1){
 				if gamepad_button_check_pressed(i, gp_padl)
 					if current_selection == 0 current_selection = 1 else current_selection -= 1
 			}
+			
 			if gamepad_button_check_pressed(i, gp_face2) and canPick{
 				obj_spriteholder2.spritehold = altchars[current_selection]
-				room_goto(map_selection)
+				canPick = false
+				alarm_set(0,1)
+				playerpicking += 1
 			}
 		}
 	}
