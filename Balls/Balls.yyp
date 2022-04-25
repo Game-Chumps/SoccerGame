@@ -64,6 +64,7 @@
     {"id":{"name":"spr_unlimitedjmp","path":"sprites/spr_unlimitedjmp/spr_unlimitedjmp.yy",},"order":11,},
     {"id":{"name":"spr_goal2","path":"sprites/spr_goal2/spr_goal2.yy",},"order":21,},
     {"id":{"name":"snd_crowd_ballSteal","path":"sounds/snd_crowd_ballSteal/snd_crowd_ballSteal.yy",},"order":1,},
+    {"id":{"name":"spr_scoreboard","path":"sprites/spr_scoreboard/spr_scoreboard.yy",},"order":33,},
     {"id":{"name":"snd_dash","path":"sounds/snd_dash/snd_dash.yy",},"order":5,},
     {"id":{"name":"obj_p2","path":"objects/obj_p2/obj_p2.yy",},"order":7,},
     {"id":{"name":"spr_selectAMap","path":"sprites/spr_selectAMap/spr_selectAMap.yy",},"order":4,},
@@ -170,7 +171,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.2.0.614",
   },
   "resourceVersion": "1.5",
   "name": "Balls",
