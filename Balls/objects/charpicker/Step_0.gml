@@ -63,7 +63,6 @@ if (playerpicking == 1){
 				canPick = false
 				alarm_set(0,1)
 				playerpicking += 1
-				room_goto(map_selection)
 			}
 		}
 	}
