@@ -1,12 +1,9 @@
 {
-  "spriteId": {
-    "name": "spr_characterSelect",
-    "path": "sprites/spr_characterSelect/spr_characterSelect.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -21,14 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [],
-  "properties": [],
+  "properties": [
+    {"varType":5,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"p1Sprite","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":5,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"p2Sprite","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "charSelect",
     "path": "folders/Objects/charSelect.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_choose",
+  "name": "obj_spriteholder",
   "tags": [],
   "resourceType": "GMObject",
 }

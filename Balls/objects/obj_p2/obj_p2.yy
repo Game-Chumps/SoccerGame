@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_characterSelect",
-    "path": "sprites/spr_characterSelect/spr_characterSelect.yy",
+    "name": "mr_bear",
+    "path": "sprites/mr_bear/mr_bear.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/charSelect.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_choose",
+  "name": "obj_p2",
   "tags": [],
   "resourceType": "GMObject",
 }
