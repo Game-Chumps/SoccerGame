@@ -34,7 +34,7 @@ for (var i = 0; i < 12; i++)
 		
 		}
 	}
-	}
+}
 	
 	//keyboard controls
 if current_selection >= 0 and current_selection <= 3{
