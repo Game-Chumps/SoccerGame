@@ -163,7 +163,6 @@ if(place_meeting(x,y,obj_ball) and canball and !obj_ball.ballin and (keyboard_ch
 	
 //tackling other players
 if(place_meeting(x,y,obj_player) and charging and obj_ball.ballin){
-	
 		audio_play_sound(snd_crowd_ballSteal, 10, false);
 		obj_ball.ballin = true;
 		obj_ball.currballer = self;
@@ -174,7 +173,7 @@ if(place_meeting(x,y,obj_player) and charging and obj_ball.ballin){
 
 
 //stun tackle
-if ((keyboard_check_pressed(ord(key_tackle)) || gamepad_button_check(plcontrollerslot, gp_face3) || gamepad_button_check(plcontrollerslot, 32773) /*hardcoded value as my second controller uses some weird key id which isn't natively mapped in gml lol...*/) and canCharge and !plballin){
+if ((keyboard_check_pressed(ord(key_tackle)) || gamepad_button_check(plcontrollerslot, gp_face3) || gamepad_button_check(plcontrollerslot, 32773) /*hardcoded value as my second controller uses some weird key id which isn't natively mapped in gml lol...*/) and canCharge and !plballin and _move != 0){
 	audio_play_sound(snd_dash, 10, false)
 	charging = true
 	canCharge = false
