@@ -41,7 +41,6 @@ if (hasSpeedUp)
 vsp += grv;
 if object_get_sprite(object_index) == spr_player1
 {
-	show_debug_message("this is the goblin player")
 	if _move != 0 image_speed = 1 else image_speed = 0 //characters only animate when moving
 }
 else if object_get_sprite(object_index) == mr_bear or object_get_sprite(object_index) == mr_bear_holding
