@@ -33,8 +33,12 @@ if scoreboard.countDownTimer <= 1
 		obj_playerTwoWins.image_yscale = 2.045661
 	}
 		//draw_text_transformed(1020, 50, "Team 2 Wins", 2, 2, 0)
-	if scoreboard.team1Score == scoreboard.team2Score
-		draw_text_transformed(1020, 50, "It's a Tie!", 2, 2, 0)
+	if scoreboard.team1Score == scoreboard.team2Score{
+		instance_create_layer(960,540, "Winner", obj_tie);
+		obj_tie.image_xscale = 2.045661
+		obj_tie.image_yscale = 2.045661
+	}
+		//draw_text_transformed(1020, 50, "It's a Tie!", 2, 2, 0)
 	gameDone = true;
 	
 }
