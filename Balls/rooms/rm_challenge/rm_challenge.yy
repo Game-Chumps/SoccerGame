@@ -59,6 +59,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"powerupspawner","path":"objects/powerupspawner/powerupspawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":192.0,"resourceVersion":"1.0","name":"inst_16A2C86B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"playcrowd","path":"objects/playcrowd/playcrowd.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1376.0,"y":192.0,"resourceVersion":"1.0","name":"inst_5502E475","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"playmusic","path":"objects/playmusic/playmusic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1312.0,"y":192.0,"resourceVersion":"1.0","name":"inst_D4B3116","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_zoomball","path":"objects/obj_zoomball/obj_zoomball.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":960.0,"resourceVersion":"1.0","name":"inst_5AEC2532","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.75625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":119.799995,"resourceVersion":"1.0","name":"inst_6A807211","tags":[],"resourceType":"GMRInstance",},
@@ -221,6 +222,7 @@
     {"name":"inst_16A2C86B","path":"rooms/rm_challenge/rm_challenge.yy",},
     {"name":"inst_5502E475","path":"rooms/rm_challenge/rm_challenge.yy",},
     {"name":"inst_D4B3116","path":"rooms/rm_challenge/rm_challenge.yy",},
+    {"name":"inst_5AEC2532","path":"rooms/rm_challenge/rm_challenge.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
