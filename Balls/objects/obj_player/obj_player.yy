@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "mr_bear_red",
-    "path": "sprites/mr_bear_red/mr_bear_red.yy",
+    "name": "mr_bear",
+    "path": "sprites/mr_bear/mr_bear.yy",
   },
   "solid": false,
   "visible": true,
