@@ -203,6 +203,11 @@ if(plballin){
 	obj_ball.x = x + (30*-image_xscale)
 	obj_ball.y = y + 15
 	if(keyboard_check_released(key_shoot) || gamepad_button_check_released(plcontrollerslot, gp_face2) and plballin){
+		
+		if(obj_ball.zoomin = true)
+		{
+			audio_play_sound(snd_ballzoomin, 10, false)
+		}
 		plballin = false;
 		obj_ball.ballin = false;
 		obj_ball.hsp = 20 * -image_xscale
