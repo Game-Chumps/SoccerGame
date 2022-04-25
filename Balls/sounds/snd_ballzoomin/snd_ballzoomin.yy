@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.67,
+  "volume": 0.79,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_ballzoomin.mp3",
-  "duration": 0.757551,
+  "duration": 1.985306,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
