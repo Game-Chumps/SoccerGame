@@ -60,9 +60,7 @@ if (playerpicking == 1){
 			
 			if gamepad_button_check_pressed(i, gp_face2) and canPick{
 				obj_spriteholder2.spritehold = altchars[current_selection]
-				canPick = false
-				alarm_set(0,1)
-				playerpicking += 1
+				room_goto(map_selection)
 			}
 		}
 	}
