@@ -39,11 +39,13 @@ if (hasSpeedUp)
 
 
 vsp += grv;
-if object_get_sprite(object_index) == spr_player1
+show_debug_message(sprite_index)
+if sprite_index == spr_player1 or sprite_index == spr_player2
 {
 	if _move != 0 image_speed = 1 else image_speed = 0 //characters only animate when moving
 }
-else if object_get_sprite(object_index) == mr_bear or object_get_sprite(object_index) == mr_bear_holding
+else if sprite_index == mr_bear or sprite_index == mr_bear_holding
+	 or sprite_index == mr_bear_red or sprite_index == mr_bear_red_holding
 {
 	if !plballin and _move != 0
 	{
