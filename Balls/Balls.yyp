@@ -19,7 +19,6 @@
     {"id":{"name":"spr_selector","path":"sprites/spr_selector/spr_selector.yy",},"order":11,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":4,},
-    {"id":{"name":"Sprite34","path":"sprites/Sprite34/Sprite34.yy",},"order":15,},
     {"id":{"name":"spr_RoomChallenge","path":"sprites/spr_RoomChallenge/spr_RoomChallenge.yy",},"order":2,},
     {"id":{"name":"obj_RoomFloating","path":"objects/obj_RoomFloating/obj_RoomFloating.yy",},"order":14,},
     {"id":{"name":"DEVCOMMANDS","path":"objects/DEVCOMMANDS/DEVCOMMANDS.yy",},"order":4,},
@@ -73,6 +72,7 @@
     {"id":{"name":"obj_creditButton","path":"objects/obj_creditButton/obj_creditButton.yy",},"order":27,},
     {"id":{"name":"obj_speed","path":"objects/obj_speed/obj_speed.yy",},"order":22,},
     {"id":{"name":"playcrowd","path":"objects/playcrowd/playcrowd.yy",},"order":30,},
+    {"id":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},"order":7,},
     {"id":{"name":"obj_smooth_corners","path":"objects/obj_smooth_corners/obj_smooth_corners.yy",},"order":8,},
     {"id":{"name":"spr_player2","path":"sprites/spr_player2/spr_player2.yy",},"order":5,},
     {"id":{"name":"world_background_challenge","path":"sprites/world_background_challenge/world_background_challenge.yy",},"order":34,},
@@ -116,6 +116,7 @@
     {"roomId":{"name":"rm_basic","path":"rooms/rm_basic/rm_basic.yy",},},
     {"roomId":{"name":"rm_charSelect","path":"rooms/rm_charSelect/rm_charSelect.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
+    {"roomId":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
