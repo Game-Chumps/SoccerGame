@@ -96,6 +96,7 @@
     {"id":{"name":"world_background_challenge","path":"sprites/world_background_challenge/world_background_challenge.yy",},"order":20,},
     {"id":{"name":"obj_nyi","path":"objects/obj_nyi/obj_nyi.yy",},"order":0,},
     {"id":{"name":"obj_instructionButton","path":"objects/obj_instructionButton/obj_instructionButton.yy",},"order":2,},
+    {"id":{"name":"Sprite49","path":"sprites/Sprite49/Sprite49.yy",},"order":32,},
     {"id":{"name":"spr_stageSelect","path":"sprites/spr_stageSelect/spr_stageSelect.yy",},"order":5,},
     {"id":{"name":"spr_randomButton","path":"sprites/spr_randomButton/spr_randomButton.yy",},"order":3,},
     {"id":{"name":"spr_title_select","path":"sprites/spr_title_select/spr_title_select.yy",},"order":24,},
@@ -169,7 +170,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.2.0.614",
   },
   "resourceVersion": "1.5",
   "name": "Balls",
