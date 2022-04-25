@@ -9,7 +9,7 @@ for (var i = 0; i < instance_number(obj_ball); i++)
 	ballss[i] = instance_find(obj_ball, i)
 }
 
-if (array_length(ballss) < 7)
+if (array_length(ballss) < 9)
 {
 	rand = irandom(10)
 	switch(rand)
