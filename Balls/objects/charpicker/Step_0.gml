@@ -45,11 +45,7 @@ if (playerpicking == 0){
 }
 
 if (playerpicking == 1){
-	if chars[current_selection] == obj_p1.sprite_index {
-		obj_p2.sprite_index = altchars[current_selection]
-	}else{
-		obj_p2.sprite_index = chars[current_selection]
-	}
+	obj_p2.sprite_index = altchars[current_selection]
 	
 	for (var i = 0; i < 12; i++)
 	{
