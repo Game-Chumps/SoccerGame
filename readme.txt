@@ -12,6 +12,31 @@ Presented By:
 ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
 
 ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
+Controls:
+	Keyboard
+		- Player 1:
+		Move - A-S-D
+		Jump - W
+		Shoot - Space
+		Hold - F
+		Dash/Tackle - Z
+		
+		- Player 2:
+		Move - J-K-L
+		Jump - I
+		Shoot - Right Shift
+		Hold - N
+		Dash/Tackle - M
+
+	Controller
+		Move - Left Control Stick
+		Jump - Bottom Button
+		Shoot - Right Button
+		Hold/Dash/Tackle - Left Button
+		
+~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
+
+~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
 Instructions:
 	- Select a map with the cursor or via left/right on a keyboard or controller, and enter / X on controller to select
 	- 2 players are placed into a map
@@ -28,9 +53,39 @@ Instructions:
 Cheat Codes:
 	- R -> Restart Game
 	- T -> Go to next stage / arena
+	- Escape / Right Trigger - Return to main menu
+	- C -> Go to character select
 ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
 
 ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
 Licensing Information:
-	- All assets are original. All rights reserved.
+	
+Snd_crowd
+Creative Commons 0 License
+https://freesound.org/people/huubjeroen/sounds/39733/
+
+snd_crowd_ballSteal
+Attribution 3.0 License
+https://freesound.org/people/jordiroquer/sounds/148153/
+
+Snd_crowd_gameover
+Attribution 3.0 License
+https://freesound.org/people/YleArkisto/sounds/361590/
+
+Snd_crowd_goal
+Attribution 3.0 License
+https://freesound.org/people/paulw2k/sounds/196461/
+
+Snd_dash
+Attribution 3.0 License
+https://freesound.org/people/bennychico11/sounds/125111/
+
+Snd_powerup
+Creative Commons 0 license
+https://freesound.org/people/MATRIXXX_/sounds/523649/
+
+Snd_ballzoomin
+Attribution Noncommercial 4.0 License
+https://freesound.org/people/Robinhood76/sounds/564041/
+
 ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
