@@ -22,6 +22,9 @@ if scoreboard.countDownTimer <= 1
 {
 	
 	if scoreboard.team2Score > scoreboard.team1Score
+		instance_create_layer(960,540, "Winner", obj_playerOneWins);
+		obj_playerOneWins.image_xscale = 2.045661
+		obj_playerOneWins.image_yscale = 2.045661
 		draw_text_transformed(1020, 50, "Team 1 Wins", 2, 2, 0)
 	if scoreboard.team1Score > scoreboard.team2Score
 		draw_text_transformed(1020, 50, "Team 2 Wins", 2, 2, 0)

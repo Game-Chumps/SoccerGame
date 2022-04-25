@@ -68,7 +68,9 @@
     {"id":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"order":5,},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},"order":2,},
     {"id":{"name":"background","path":"sprites/background/background.yy",},"order":27,},
+    {"id":{"name":"obj_playerOneWins","path":"objects/obj_playerOneWins/obj_playerOneWins.yy",},"order":36,},
     {"id":{"name":"obj_player1Stat","path":"objects/obj_player1Stat/obj_player1Stat.yy",},"order":18,},
+    {"id":{"name":"spr_playerOneWins","path":"sprites/spr_playerOneWins/spr_playerOneWins.yy",},"order":28,},
     {"id":{"name":"obj_RoomChallenge","path":"objects/obj_RoomChallenge/obj_RoomChallenge.yy",},"order":2,},
     {"id":{"name":"translucancy","path":"objects/translucancy/translucancy.yy",},"order":35,},
     {"id":{"name":"spr_nyi","path":"sprites/spr_nyi/spr_nyi.yy",},"order":3,},
@@ -156,7 +158,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.2.0.614",
   },
   "resourceVersion": "1.5",
   "name": "Balls",
