@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_characterSelect",
-    "path": "sprites/spr_characterSelect/spr_characterSelect.yy",
+    "name": "spr_charselect",
+    "path": "sprites/spr_charselect/spr_charselect.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +31,7 @@
     "path": "folders/Objects/charSelect.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_choose",
+  "name": "charpicker",
   "tags": [],
   "resourceType": "GMObject",
 }
