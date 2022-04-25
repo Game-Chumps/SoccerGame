@@ -6,6 +6,15 @@ scoreboard.countDownTimer = clamp(scoreboard.countDownTimer, 0, scoreboard.count
 current_min_left = floor(scoreboard.countDownTimer / 60)
 current_sec_left = floor(scoreboard.countDownTimer) - current_min_left * 60
 
+if current_sec_left < 10
+{
+	current_sec_left = "0" + string(current_sec_left)
+}
+else
+{
+	current_sec_left = string(current_sec_left)
+}
+
 if(room == 4){
 	draw_set_color(c_lime)
 } else{
