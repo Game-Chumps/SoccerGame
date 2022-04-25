@@ -39,7 +39,6 @@ if (hasSpeedUp)
 
 
 vsp += grv;
-show_debug_message(sprite_index)
 if sprite_index == spr_player1 or sprite_index == spr_player2
 {
 	if _move != 0 image_speed = 1 else image_speed = 0 //characters only animate when moving
