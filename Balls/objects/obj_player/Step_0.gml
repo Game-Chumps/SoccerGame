@@ -89,6 +89,55 @@ else if sprite_index == mr_bear_red or sprite_index == mr_bear_red_holding
 		sprite_index = mr_bear_red
 	}
 }
+else if sprite_index == spr_fairy_blue or sprite_index == spr_fairy_blue_holding
+{
+	if !plballin and _move != 0
+	{
+		image_speed = 1
+		sprite_index = spr_fairy_blue
+	}
+	else if plballin and _move != 0
+	{
+		image_speed = 1
+		sprite_index = spr_fairy_blue_holding
+	}
+	else if plballin and _move == 0
+	{
+		image_speed = 0
+		sprite_index = spr_fairy_blue_holding
+	}
+	else
+	{
+		image_speed = 0
+		sprite_index = spr_fairy_blue
+	}
+}
+
+else if sprite_index == spr_fairy_red or sprite_index == spr_fairy_red_holding
+{
+	if !plballin and _move != 0
+	{
+		image_speed = 1
+		sprite_index = spr_fairy_red
+	}
+	else if plballin and _move != 0
+	{
+		image_speed = 1
+		sprite_index = spr_fairy_red_holding
+	}
+	else if plballin and _move == 0
+	{
+		image_speed = 0
+		sprite_index = spr_fairy_red_holding
+	}
+	else
+	{
+		image_speed = 0
+		sprite_index = spr_fairy_red
+	}
+}
+
+
 
 
 

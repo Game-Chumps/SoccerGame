@@ -12,12 +12,12 @@ if (playerpicking == 0){
 	{
 		if gamepad_is_connected(i)
 		{
-			if current_selection >= 0 and current_selection <= 1{
+			if current_selection >= 0 and current_selection <= 2{
 				if gamepad_button_check_pressed(i, gp_padr)
-					if current_selection == 1 current_selection = 0 else current_selection += 1
+					if current_selection == 2 current_selection = 0 else current_selection += 1
 
 				if gamepad_button_check_pressed(i, gp_padl)
-					if current_selection == 0 current_selection = 1 else current_selection -= 1
+					if current_selection == 0 current_selection = 2 else current_selection -= 1
 			}
 			
 			if gamepad_button_check_pressed(i, gp_face2) and canPick{
@@ -29,12 +29,12 @@ if (playerpicking == 0){
 		}
 	}
 	
-	if current_selection >= 0 and current_selection <= 1{
+	if current_selection >= 0 and current_selection <= 2{
 		if keyboard_check_pressed(vk_right)
-			if current_selection == 1 current_selection = 0 else current_selection += 1
+			if current_selection == 2 current_selection = 0 else current_selection += 1
 
 		if keyboard_check_pressed(vk_left)
-			if current_selection == 0 current_selection = 1 else current_selection -= 1
+			if current_selection == 0 current_selection = 2 else current_selection -= 1
 	}
 	if keyboard_check_pressed(vk_enter) and canPick{
 		obj_spriteholder1.spritehold = chars[current_selection]
@@ -50,12 +50,12 @@ if (playerpicking == 1){
 	{
 		if gamepad_is_connected(i)
 		{
-			if current_selection >= 0 and current_selection <= 1{
+			if current_selection >= 0 and current_selection <= 2{
 				if gamepad_button_check_pressed(i, gp_padr)
-					if current_selection == 1 current_selection = 0 else current_selection += 1
+					if current_selection == 2 current_selection = 0 else current_selection += 1
 
 				if gamepad_button_check_pressed(i, gp_padl)
-					if current_selection == 0 current_selection = 1 else current_selection -= 1
+					if current_selection == 0 current_selection = 2 else current_selection -= 1
 			}
 			
 			if gamepad_button_check_pressed(i, gp_face2) and canPick{
@@ -65,12 +65,12 @@ if (playerpicking == 1){
 		}
 	}
 	
-	if current_selection >= 0 and current_selection <= 1{
+	if current_selection >= 0 and current_selection <= 2{
 		if keyboard_check_pressed(vk_right)
-			if current_selection == 1 current_selection = 0 else current_selection += 1
+			if current_selection == 2 current_selection = 0 else current_selection += 1
 
 		if keyboard_check_pressed(vk_left)
-			if current_selection == 0 current_selection = 1 else current_selection -= 1
+			if current_selection == 0 current_selection = 2 else current_selection -= 1
 	}
 	if keyboard_check_pressed(vk_enter) and canPick{
 		obj_spriteholder2.spritehold = altchars[current_selection]
