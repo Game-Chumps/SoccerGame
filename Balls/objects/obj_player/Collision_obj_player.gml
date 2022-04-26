@@ -4,6 +4,6 @@
 if(place_meeting(x,y,obj_player) and other.charging and plballin){
 		plballin = false;
 		canball = false; //Ensures the player can't pick up the ball immediately
-		alarm[0] = 50;
+		alarm[0] = 20;
 		spaceholdtime = 0;
 	}
