@@ -36,6 +36,7 @@
     {"id":{"name":"spr_playerTwoWins","path":"sprites/spr_playerTwoWins/spr_playerTwoWins.yy",},"order":29,},
     {"id":{"name":"spr_creditButton","path":"sprites/spr_creditButton/spr_creditButton.yy",},"order":0,},
     {"id":{"name":"obj_bearSel","path":"objects/obj_bearSel/obj_bearSel.yy",},"order":1,},
+    {"id":{"name":"spr_instructionTitle","path":"sprites/spr_instructionTitle/spr_instructionTitle.yy",},"order":35,},
     {"id":{"name":"charpicker","path":"objects/charpicker/charpicker.yy",},"order":4,},
     {"id":{"name":"obj_startButton","path":"objects/obj_startButton/obj_startButton.yy",},"order":3,},
     {"id":{"name":"shootcontroller","path":"objects/shootcontroller/shootcontroller.yy",},"order":7,},
@@ -173,7 +174,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.2.0.614",
   },
   "resourceVersion": "1.5",
   "name": "Balls",
