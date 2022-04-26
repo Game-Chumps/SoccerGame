@@ -15,17 +15,13 @@ else
 	current_sec_left = string(current_sec_left)
 }
 
-if(room == 4){
-	draw_set_color(c_lime)
-} else{
-draw_set_color(c_lime)
-}
+draw_set_color(c_white)
 
 //draw_text_transformed(875, 0, "SCOREBOARD", 2, 2, 0)
-draw_text_transformed(900, 25, scoreboard.team2Score, 2, 2, 0)
-draw_text_transformed(1020, 25, scoreboard.team1Score, 2, 2, 0)
+draw_text_transformed(room_width/2 - 135, 10, scoreboard.team2Score, 2, 2, 0)
+draw_text_transformed(room_width/2 + 118, 10, scoreboard.team1Score, 2, 2, 0)
 
-draw_text_transformed(500, 25, string(current_min_left) + ":" + string(current_sec_left), 2, 2, 0)
+draw_text_transformed(room_width/2 - 35, 10, string(current_min_left) + ":" + string(current_sec_left), 2, 2, 0)
 
 if scoreboard.countDownTimer <= 1
 {
