@@ -47,8 +47,11 @@ if scoreboard.countDownTimer <= 1
 		obj_tie.image_xscale = 2.045661
 		obj_tie.image_yscale = 2.045661
 	}
+	instance_create_layer(960, 860, "Winner", obj_rematch)
 		//draw_text_transformed(1020, 50, "It's a Tie!", 2, 2, 0)
 	gameDone = true;
+	
+	
 	
 }
 else
