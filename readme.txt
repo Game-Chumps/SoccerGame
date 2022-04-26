@@ -60,7 +60,7 @@ Cheat Codes:
 ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
 Licensing Information:
 	
-Snd_crowd
+snd_crowd
 Creative Commons 0 License
 https://freesound.org/people/huubjeroen/sounds/39733/
 
@@ -68,27 +68,29 @@ snd_crowd_ballSteal
 Attribution 3.0 License
 https://freesound.org/people/jordiroquer/sounds/148153/
 
-Snd_crowd_gameover
+snd_crowd_gameover
 Attribution 3.0 License
 https://freesound.org/people/YleArkisto/sounds/361590/
 
-Snd_crowd_goal
+snd_crowd_goal
 Attribution 3.0 License
 https://freesound.org/people/paulw2k/sounds/196461/
 
-Snd_dash
+snd_dash
 Attribution 3.0 License
 https://freesound.org/people/bennychico11/sounds/125111/
 
-Snd_powerup
+snd_powerup
 Creative Commons 0 license
 https://freesound.org/people/MATRIXXX_/sounds/523649/
 
-Snd_ballzoomin
+snd_ballzoomin
 Attribution Noncommercial 4.0 License
 https://freesound.org/people/Robinhood76/sounds/564041/
 
 Controller image for instruction screen
 Creative Commons license
 https://pixabay.com/vectors/controller-gamepad-xbox-video-games-1827840/
+
+All other assets and sounds / music are original- all rights reserved.
 ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~
